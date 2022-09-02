@@ -8,6 +8,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/google-fonts": "3.0.0-0",
+    "@nuxtjs/tailwindcss": "^5.3.2",
     "nuxt": "3.0.0-rc.8"
   }
 }

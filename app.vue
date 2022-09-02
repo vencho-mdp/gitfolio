@@ -1,5 +1,11 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <Title>Gitfolio</Title>
+    <NuxtPage />
   </div>
 </template>
+<style>
+body {
+  @apply bg-black;
+}
+</style>

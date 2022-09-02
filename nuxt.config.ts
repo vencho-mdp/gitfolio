@@ -1,6 +1,14 @@
 import { defineNuxtConfig } from 'nuxt'
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
+  css: ['~/assets/css/global.css'],
+  googleFonts: {
+    families: {
+      'Montserrat': [400, 500, 600, 700],
+    }
+  },
+  experimental: {
+    reactivityTransform: true
+  }
 })
